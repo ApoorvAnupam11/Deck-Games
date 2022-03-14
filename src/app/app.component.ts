@@ -16,6 +16,9 @@ export class AppComponent implements OnInit {
   });
 
   ngOnInit(): void {
+
+    this.app.renderer.backgroundColor = 0x040A42;
+
     document.body.appendChild(this.app.view);
   }
 
