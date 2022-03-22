@@ -1,4 +1,5 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { getLocaleDayNames } from '@angular/common';
+import { Component, OnInit, ViewChild, ViewEncapsulation } from '@angular/core';
 
 
 @Component({
@@ -11,7 +12,7 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 
 export class AppComponent implements OnInit {
 
-
+  title: string = "Deck-Games";
   ngOnInit(): void {
 
   }
