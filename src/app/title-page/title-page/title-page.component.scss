@@ -11,14 +11,13 @@ body {
 //   overflow: hidden;
 // }
 
-// .section {
-//   position: relative;
-//   width: 100vw;
-//   height: 100vh;
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-// }
+.section {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+}
 
 #videoBG {
   position: fixed;
@@ -38,4 +37,15 @@ body {
     width: auto;
     height: 100%;
   }
+}
+
+.logo {
+  border: none;
+  height: 200px;
+}
+
+.logo-button {
+  border: none;
+  padding: 0;
+  height: 200px;
 }
